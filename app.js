@@ -13,4 +13,9 @@ ham.addEventListener('click', function (){
     } else {
         mobileMenu.classList.add('active');
     }
-})
+});
+window.onresize = function(){
+    if(window.innerWidth > 420) {
+        mobileMenu.classList.remove('active');
+    }
+}

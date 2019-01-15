@@ -1,5 +1,7 @@
 html, body {
     margin: 0px;
+    width: 100%;
+    overflow-x: hidden;
     font-family: helvetica;
 }
 a:link, a:visited, a:hover, a:active {
